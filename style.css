@@ -1,0 +1,108 @@
+body {
+    background-image: url("https://i.postimg.cc/jj2c1JmN/th.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 10vh 0 0 0;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    color: rgb(19, 2, 66);
+  }
+  
+  .container {
+    width: 100%;
+    min-height: 60vh;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  table {
+    width: 80%;
+    margin: 40px auto;
+  
+    background-color: #3f7a81;
+  }
+  
+  table.list {
+    text-align: center;
+    width: 100%;
+  }
+  
+  td {
+    border: 1px solid rgb(207, 216, 151);
+    text-align: left;
+    padding: 8px 15px;
+  }
+  
+  tr:nth-child(even),
+  table.list thread > tr {
+    background-color: #d0f1bf;
+  }
+  
+  input[type="text"] {
+    width: 91%;
+    padding: 10px 10px;
+    margin: 0px 0 10px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 6px;
+  }
+  
+  input[type="submit"],
+  input[type="reset"] {
+    background: #eee;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  input[type="submit"]:hover,
+  input[type="reset"]:hover,
+  button:hover {
+    background: #6c0444;
+  }
+  
+  input[type="submit"],
+  input[type="reset"] {
+    background: #82104f;
+    color: white;
+    font-size: 1rem;
+    font-family: sans-serif;
+  }
+  
+  tbody {
+    font-family: sans-serif;
+  }
+  
+  .input-part {
+    font-family: sans-serif;
+    font-size: 1rem;
+  }
+  
+  button {
+    background: #da5aa0;
+    color: white;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    outline: none;
+  }
+  
