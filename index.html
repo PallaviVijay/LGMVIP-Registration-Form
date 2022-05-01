@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer> </script>
+    <title>Student Registration Form </title>
+</head>
+<body>
+    <h1 style="color: rgb(14, 1, 1) ; font-family: Trebuchet MS, sans-serif;"> Student Registration Form</h1>
+    <div class="container center">
+        <table>
+            <tr>
+                <td>
+                    <form class="input-part" autocomplete="off" onsubmit="onFormSubmit()">
+                        <div>
+                            <label for="studentName">Student Name</label>
+                            <input type="text" placeholder="Enter Student Name" name="studentName" id="studentName">
+                        </div>
+                        <div>
+                            <label for="address">Address</label>
+                            <input placeholder="Enter Address" type="text" name="address" id="address">
+                        </div>
+                        <div>
+                            <label for="SportName">Course Name</label>
+                            <input placeholder="Enter The Course Name" type="text" name="CourseName" id="CourseName">
+                        </div>
+                        <div>
+                            <label for="age">Age</label>
+                            <input placeholder="Enter your Age" type="text" name="age" id="age">
+                        </div>
+                        <div>
+                            <label for="gender">Gender</label>
+                            <input placeholder="Enter Gender (F/M/Others)" type="text" name="gender" id="gender">
+                        </div>
+                        <div>
+                            <label for="mobile">Contact no.</label>
+                            <input placeholder="Enter your Contact no." type="text" name="mobile" id="mobile">
+                        </div>
+
+                        <div class="form-btns">
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+                        </div>
+                    </form>
+
+                <td>
+                    <table class="list" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>Student Name</th>
+                                <th>Address</th>
+                                <th>Course Name</th>
+                                <th>Age</th>
+                                <th>Gender</th>
+                                <th>Contact no.</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
